@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 h1{
 	margin-top: 60px;
 }
@@ -23,15 +27,22 @@ h1{
 }
 
 .menu-section{
-	background-color: grey;
+	background-color: grey;	
+	margin: auto;
+	padding: 0;	
+}
+
+.section-content{
+	padding: 0px 15px 15px 15px;
+	overflow: hidden;
 	height: 1000px;
-	margin: 0 20px 0 20px;
-	align-self: center;
 }
 
 div .row{
 	width: 100%;
-	margin: 50x 10px 0px 10px;	
+	margin-right: 0px;
+    margin-left: 0px;	
+    margin: auto;
 }
 
 .section-header{
